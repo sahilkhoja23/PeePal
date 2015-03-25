@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1664DA701AC271DF001299A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1664DA6F1AC271DF001299A7 /* AppDelegate.swift */; };
+		1664DA731AC271DF001299A7 /* PeePal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1664DA711AC271DF001299A7 /* PeePal.xcdatamodeld */; };
+		1664DA751AC271DF001299A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1664DA741AC271DF001299A7 /* ViewController.swift */; };
+		1664DA781AC271DF001299A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1664DA761AC271DF001299A7 /* Main.storyboard */; };
+		1664DA7A1AC271DF001299A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1664DA791AC271DF001299A7 /* Images.xcassets */; };
+		1664DA7D1AC271DF001299A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1664DA7B1AC271DF001299A7 /* LaunchScreen.xib */; };
+		1664DA891AC271DF001299A7 /* PeePalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1664DA881AC271DF001299A7 /* PeePalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1664DA831AC271DF001299A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1664DA621AC271DF001299A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1664DA691AC271DF001299A7;
+			remoteInfo = PeePal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1664DA6A1AC271DF001299A7 /* PeePal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeePal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1664DA6E1AC271DF001299A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1664DA6F1AC271DF001299A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1664DA721AC271DF001299A7 /* PeePal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeePal.xcdatamodel; sourceTree = "<group>"; };
+		1664DA741AC271DF001299A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1664DA771AC271DF001299A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1664DA791AC271DF001299A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1664DA7C1AC271DF001299A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1664DA821AC271DF001299A7 /* PeePalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeePalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1664DA871AC271DF001299A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1664DA881AC271DF001299A7 /* PeePalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeePalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1664DA671AC271DF001299A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1664DA7F1AC271DF001299A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1664DA611AC271DF001299A7 = {
+			isa = PBXGroup;
+			children = (
+				1664DA6C1AC271DF001299A7 /* PeePal */,
+				1664DA851AC271DF001299A7 /* PeePalTests */,
+				1664DA6B1AC271DF001299A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1664DA6B1AC271DF001299A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1664DA6A1AC271DF001299A7 /* PeePal.app */,
+				1664DA821AC271DF001299A7 /* PeePalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1664DA6C1AC271DF001299A7 /* PeePal */ = {
+			isa = PBXGroup;
+			children = (
+				1664DA6F1AC271DF001299A7 /* AppDelegate.swift */,
+				1664DA741AC271DF001299A7 /* ViewController.swift */,
+				1664DA761AC271DF001299A7 /* Main.storyboard */,
+				1664DA791AC271DF001299A7 /* Images.xcassets */,
+				1664DA7B1AC271DF001299A7 /* LaunchScreen.xib */,
+				1664DA711AC271DF001299A7 /* PeePal.xcdatamodeld */,
+				1664DA6D1AC271DF001299A7 /* Supporting Files */,
+			);
+			path = PeePal;
+			sourceTree = "<group>";
+		};
+		1664DA6D1AC271DF001299A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1664DA6E1AC271DF001299A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1664DA851AC271DF001299A7 /* PeePalTests */ = {
+			isa = PBXGroup;
+			children = (
+				1664DA881AC271DF001299A7 /* PeePalTests.swift */,
+				1664DA861AC271DF001299A7 /* Supporting Files */,
+			);
+			path = PeePalTests;
+			sourceTree = "<group>";
+		};
+		1664DA861AC271DF001299A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1664DA871AC271DF001299A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1664DA691AC271DF001299A7 /* PeePal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1664DA8C1AC271DF001299A7 /* Build configuration list for PBXNativeTarget "PeePal" */;
+			buildPhases = (
+				1664DA661AC271DF001299A7 /* Sources */,
+				1664DA671AC271DF001299A7 /* Frameworks */,
+				1664DA681AC271DF001299A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeePal;
+			productName = PeePal;
+			productReference = 1664DA6A1AC271DF001299A7 /* PeePal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1664DA811AC271DF001299A7 /* PeePalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1664DA8F1AC271DF001299A7 /* Build configuration list for PBXNativeTarget "PeePalTests" */;
+			buildPhases = (
+				1664DA7E1AC271DF001299A7 /* Sources */,
+				1664DA7F1AC271DF001299A7 /* Frameworks */,
+				1664DA801AC271DF001299A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1664DA841AC271DF001299A7 /* PBXTargetDependency */,
+			);
+			name = PeePalTests;
+			productName = PeePalTests;
+			productReference = 1664DA821AC271DF001299A7 /* PeePalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1664DA621AC271DF001299A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Sahil Khoja";
+				TargetAttributes = {
+					1664DA691AC271DF001299A7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1664DA811AC271DF001299A7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1664DA691AC271DF001299A7;
+					};
+				};
+			};
+			buildConfigurationList = 1664DA651AC271DF001299A7 /* Build configuration list for PBXProject "PeePal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1664DA611AC271DF001299A7;
+			productRefGroup = 1664DA6B1AC271DF001299A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1664DA691AC271DF001299A7 /* PeePal */,
+				1664DA811AC271DF001299A7 /* PeePalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1664DA681AC271DF001299A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1664DA781AC271DF001299A7 /* Main.storyboard in Resources */,
+				1664DA7D1AC271DF001299A7 /* LaunchScreen.xib in Resources */,
+				1664DA7A1AC271DF001299A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1664DA801AC271DF001299A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1664DA661AC271DF001299A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1664DA751AC271DF001299A7 /* ViewController.swift in Sources */,
+				1664DA731AC271DF001299A7 /* PeePal.xcdatamodeld in Sources */,
+				1664DA701AC271DF001299A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1664DA7E1AC271DF001299A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1664DA891AC271DF001299A7 /* PeePalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1664DA841AC271DF001299A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1664DA691AC271DF001299A7 /* PeePal */;
+			targetProxy = 1664DA831AC271DF001299A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1664DA761AC271DF001299A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1664DA771AC271DF001299A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1664DA7B1AC271DF001299A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1664DA7C1AC271DF001299A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1664DA8A1AC271DF001299A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1664DA8B1AC271DF001299A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1664DA8D1AC271DF001299A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeePal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1664DA8E1AC271DF001299A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeePal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1664DA901AC271DF001299A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeePalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeePal.app/PeePal";
+			};
+			name = Debug;
+		};
+		1664DA911AC271DF001299A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeePalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeePal.app/PeePal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1664DA651AC271DF001299A7 /* Build configuration list for PBXProject "PeePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1664DA8A1AC271DF001299A7 /* Debug */,
+				1664DA8B1AC271DF001299A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1664DA8C1AC271DF001299A7 /* Build configuration list for PBXNativeTarget "PeePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1664DA8D1AC271DF001299A7 /* Debug */,
+				1664DA8E1AC271DF001299A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1664DA8F1AC271DF001299A7 /* Build configuration list for PBXNativeTarget "PeePalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1664DA901AC271DF001299A7 /* Debug */,
+				1664DA911AC271DF001299A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1664DA711AC271DF001299A7 /* PeePal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1664DA721AC271DF001299A7 /* PeePal.xcdatamodel */,
+			);
+			currentVersion = 1664DA721AC271DF001299A7 /* PeePal.xcdatamodel */;
+			path = PeePal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1664DA621AC271DF001299A7 /* Project object */;
+}
